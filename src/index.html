@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela De Login Tailwind</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 w-screen h-screen flex flex-col justify-center items-center">
+    
+    <h2 class="text-gray-800 text-center my-4 font-medium text-2xl">Login</h2>
+
+    <div class="flex flex-col w-72 bg-white shadow-2xl p-5">
+
+        <div class=" flex flex-col justify-center gap-2">
+            <Label for="email" class=" font-semibold">E-mail:</Label>
+            <input
+                type="text"
+                id="E-mail"
+                autocomplete="off"
+                class="bg-white border border-black rounded w-full py-0.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 px-2"
+            >
+
+            <Label for="email" class=" font-semibold">Senha:</Label>
+            <input 
+                type="password"
+                id="password"
+                autocomplete="off"
+                class="bg-white border border-black rounded py-0.5 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 px-2">
+        </div>
+        <a href="#" class="text-right my-3 visited:text-purple-900">Esqueceu a Senha?</a>
+
+        <div>
+            <button class="bg-blue-600 text-white font-semibold w-full py-1 rounded cursor-pointer hover:bg-blue-500">Entrar</button>
+        </div>
+    </div>
+</body>
+</html>
